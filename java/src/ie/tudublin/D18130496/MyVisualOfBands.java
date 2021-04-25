@@ -99,7 +99,7 @@ public class MyVisualOfBands extends Visual {
             translate(100, 0, 0);
             rotateY(angle);
             rotateX(angle);
-            strokeWeight(5); 
+            stroke(map(4, 0, bands.length, 0, 255), 255, 255);
             // box(smoothedBoxSize);
             sphere(smoothedBoxSize);
             popMatrix();
